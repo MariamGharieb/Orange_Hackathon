@@ -1,4 +1,4 @@
-package com.example.odc;
+package com.example.odc.Entity;
 
 import javax.persistence.*;
 import java.util.List;

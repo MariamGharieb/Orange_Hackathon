@@ -1,9 +1,11 @@
-package com.example.odc;
+package com.example.odc.Entity;
+
+import com.example.odc.Entity.Course;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 
-@Entity
+@Entity (name= "Job")
 @Table
 public class Job {
     @SequenceGenerator(

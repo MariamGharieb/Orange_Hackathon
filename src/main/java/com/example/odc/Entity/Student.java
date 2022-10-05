@@ -1,8 +1,8 @@
-package com.example.odc;
+package com.example.odc.Entity;
 
 import javax.persistence.*;
 
-@Entity
+@Entity (name= "Student")
 @Table
 public class Student {
     @SequenceGenerator(
